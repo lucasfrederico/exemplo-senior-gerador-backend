@@ -95,6 +95,54 @@ paths:
               schema:
                 $ref: '#/components/schemas/genericError'
   
+  /rest/examples/hello_world/queries/exportCliente:
+    post:
+      description: ""
+      tags:
+        - Queries
+      x-senior-visibility: PUBLIC
+      security :
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - config
+              properties:
+                config:
+                  type: object
+                  allOf:
+                    - $ref: '#/components/schemas/exportConfig'
+                  description: ""
+      parameters:
+        - in: header
+          name: Accept
+          description: 'Content types and endpoint version for the request. Example: application/json;seniorx.version=2'
+          schema:
+            type: string
+      responses:
+        200:
+          description: Ok
+          content:
+            application/json:
+              schema:
+                type: object
+                required:
+                  - exportJobId
+                properties:
+                  exportJobId:
+                    type: string
+                    description: ""
+        default:
+          description: Error response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/genericError'
+  
   /rest/examples/hello_world/queries/getDependencies:
     post:
       description: "Returns a list with all dependencies from this service, along with their respective versions"
@@ -248,6 +296,286 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/genericError'
+  /rest/examples/hello_world/actions/odata:
+    post:
+      description: ""
+      tags:
+        - Actions
+      x-senior-visibility: PRIVATE
+      security :
+        - bearerAuth: []
+      parameters:
+        - in: header
+          name: Accept
+          description: 'Content types and endpoint version for the request. Example: application/json;seniorx.version=2'
+          schema:
+            type: string
+      responses:
+        204:
+          description: No response
+        default:
+          description: Error response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/genericError'
+  
+  /rest/examples/hello_world/actions/importCliente:
+    post:
+      description: ""
+      tags:
+        - Actions
+      x-senior-visibility: PUBLIC
+      security :
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - config
+              properties:
+                config:
+                  type: object
+                  allOf:
+                    - $ref: '#/components/schemas/importConfig'
+                  description: ""
+      parameters:
+        - in: header
+          name: Accept
+          description: 'Content types and endpoint version for the request. Example: application/json;seniorx.version=2'
+          schema:
+            type: string
+      responses:
+        200:
+          description: Ok
+          content:
+            application/json:
+              schema:
+                type: object
+                required:
+                  - importJobId
+                properties:
+                  importJobId:
+                    type: string
+                    description: ""
+        default:
+          description: Error response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/genericError'
+  /hello_world/entities/cliente:
+    post:
+      description: "This entity is customizable."
+      tags:
+        - CRUD
+      x-senior-visibility: PRIVATE
+      requestBody:
+        required: true
+        content:
+          applicaton/json:
+            schema:
+              type: object
+              allOf:
+                - $ref: '#/components/schemas/cliente'
+      responses:
+        200:
+          description: 'The created resource'
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/cliente'
+        default:
+          description: Error response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/genericError'
+    patch:
+      description: "This entity is customizable."
+      tags:
+        - CRUD
+      x-senior-visibility: PRIVATE
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              allOf:
+                - $ref: '#/components/schemas/cliente'
+      responses:
+        200:
+          description: 'The created resource'
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/cliente'
+        default:
+          description: Error response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/genericError'
+    get:
+      description: "This entity is customizable."
+      tags:
+        - CRUD
+      x-senior-visibility: PRIVATE
+      parameters:
+        - name: offset
+          in: query
+          schema:
+            type: number
+        - name: size
+          in: query
+          schema:
+            type: number
+      responses:
+        200:
+          description: Ok
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/cliente'
+        default:
+          description: Error response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/genericError'
+  
+  /hello_world/entities/cliente/{id}:
+    put:
+      description: "This entity is customizable."
+      tags:
+        - CRUD
+      x-senior-visibility: PRIVATE
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/cliente'
+      responses:
+        200:
+          description: Ok
+          content:
+            applicaton/json:
+              schema:
+                $ref: '#/components/schemas/cliente'
+        default:
+          description: Error response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/genericError'
+    patch:
+      description: "This entity is customizable."
+      tags:
+        - CRUD
+      x-senior-visibility: PRIVATE
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/cliente'
+      responses:
+        200:
+          description: Ok
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/cliente'
+        default:
+          description: Error response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/genericError'
+    get:
+      description: "This entity is customizable."
+      tags:
+        - CRUD
+      x-senior-visibility: PRIVATE
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        200:
+          description: Ok
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/cliente'
+        default:
+          description: Error response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/genericError'
+    delete:
+      description: "This entity is customizable."
+      tags:
+        - CRUD
+      x-senior-visibility: PRIVATE
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        200:
+          description: Ok
+        default:
+          description: Error response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/genericError'
+  
+  /hello_world/entities/cliente/bulk:
+    post:
+      description: "This entity is customizable."
+      tags:
+        - Bulk
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: array
+              items:
+                 $ref: '#/components/schemas/cliente'
+      responses:
+        200:
+          description: 'The bulk creation has created resources'
+        default:
+          description: Error response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/genericError'
+  
 
 components:
   securitySchemes:
@@ -281,6 +609,112 @@ components:
         - HTML
         - PLAIN_TEXT
       
+    
+    fieldType:
+      description: ""
+      type: string
+      enum:
+        - BINARY
+        - BOOLEAN
+        - DATE
+        - DATETIME
+        - DOUBLE
+        - ENUM
+        - INTEGER
+        - MONEY
+        - STRING
+        - TIME
+      
+    
+    fileFormat:
+      description: ""
+      type: string
+      enum:
+        - CSV
+        - FLAT
+        - JSON
+        - XML
+      
+    
+    hookFunction:
+      description: ""
+      type: string
+      enum:
+        - BEFORE_PARSE
+        - BEFORE_CONVERSION
+        - ON_ERROR
+        - VALIDATE
+      
+    
+    eventType:
+      description: ""
+      type: string
+      enum:
+        - CHUNK
+        - DOWNLOAD
+        - ERROR
+        - FINISH
+        - START
+      
+    
+    errorStrategy:
+      description: ""
+      type: string
+      enum:
+        - CALL_SCRIPT
+        - IGNORE
+        - STOP
+      
+    
+    status:
+      description: ""
+      type: string
+      enum:
+        - DONE
+        - DONE_WITH_ERRORS
+        - DOWNLOADING
+        - ERROR
+        - NOT_STARTED
+        - RUNNING
+      
+    
+    errorType:
+      description: ""
+      type: string
+      enum:
+        - CONVERT_ERROR
+        - SERVICE_ERROR
+      
+    cliente:
+      description: "Entidade que representa o cliente"
+      type: object
+      required:
+        - nome
+        - dataNascimento
+        - cpf
+      properties:
+        id:
+          type: string
+          format: uuid
+          description: "Chave primaria"
+        nome:
+          type: string
+          description: "Nome do cliente"
+        dataNascimento:
+          type: string
+          format: date
+          description: "Data de nascimento"
+        creditoHabilitado:
+          type: boolean
+          description: "Tem credito habilitado"
+          default: false
+        cpf:
+          type: string
+          description: "CPF do cliente"
+        idFoto:
+          type: string
+          description: "id da foto"
+    
     notifyUserEventPayload:
       description: "Represents a regular user event notification payload"
       discriminator: 
@@ -399,6 +833,310 @@ components:
         errorCode:
           type: string
           description: "The program-accessible (and service-specific) error code."
+    
+    importError:
+      description: ""
+      type: object
+      required:
+        - errorType
+        - lineNumber
+        - bean
+        - message
+        - exceptionClass
+      properties:
+        errorType:
+          type: string
+          allOf:
+          - $ref: '#/components/schemas/errorType'
+          description: ""
+        lineNumber:
+          type: integer
+          format: int64
+          description: ""
+        bean:
+          type: string
+          description: ""
+        message:
+          type: string
+          description: ""
+        exceptionClass:
+          type: string
+          description: ""
+    
+    fielddto:
+      description: ""
+      type: object
+      required:
+        - id
+        - name
+        - fieldType
+      properties:
+        id:
+          type: integer
+          format: int64
+          description: ""
+        name:
+          type: string
+          description: ""
+        fieldType:
+          type: string
+          allOf:
+          - $ref: '#/components/schemas/fieldType'
+          description: ""
+        start:
+          type: integer
+          format: int64
+          description: ""
+        size:
+          type: integer
+          format: int64
+          description: ""
+        maskPattern:
+          type: string
+          description: ""
+    
+    hookdto:
+      description: ""
+      type: object
+      required:
+        - hookFunction
+        - script
+      properties:
+        hookFunction:
+          type: string
+          allOf:
+          - $ref: '#/components/schemas/hookFunction'
+          description: ""
+        script:
+          type: string
+          description: ""
+    
+    layoutdto:
+      description: ""
+      type: object
+      required:
+        - id
+        - description
+        - fileFormat
+        - errorStrategy
+        - skipLines
+        - fields
+      properties:
+        id:
+          type: integer
+          format: int64
+          description: ""
+        description:
+          type: string
+          description: ""
+        fileFormat:
+          type: string
+          allOf:
+          - $ref: '#/components/schemas/fileFormat'
+          description: ""
+        errorStrategy:
+          type: string
+          allOf:
+          - $ref: '#/components/schemas/errorStrategy'
+          description: ""
+        delimiter:
+          type: string
+          description: ""
+        skipLines:
+          type: integer
+          format: int64
+          description: ""
+        fields:
+          type: array
+          items:
+            type: object
+            allOf:
+              - $ref: '#/components/schemas/fielddto'
+            minimum: 1
+          description: ""
+        hooks:
+          type: array
+          items:
+            type: object
+            allOf:
+              - $ref: '#/components/schemas/hookdto'
+          description: ""
+    
+    importReport:
+      description: ""
+      type: object
+      required:
+        - id
+        - startTime
+        - endTime
+        - uri
+        - beanClass
+        - serviceClass
+        - layout
+        - sucessCount
+        - errorsCount
+        - filteredCount
+        - skippedCount
+      properties:
+        id:
+          type: string
+          description: ""
+        startTime:
+          type: string
+          format: date-time
+          description: ""
+        endTime:
+          type: string
+          format: date-time
+          description: ""
+        uri:
+          type: string
+          description: ""
+        beanClass:
+          type: string
+          description: ""
+        serviceClass:
+          type: string
+          description: ""
+        layout:
+          type: object
+          allOf:
+            - $ref: '#/components/schemas/layoutdto'
+          description: ""
+        sucessCount:
+          type: integer
+          format: int64
+          description: ""
+        errorsCount:
+          type: integer
+          format: int64
+          description: ""
+        filteredCount:
+          type: integer
+          format: int64
+          description: ""
+        skippedCount:
+          type: integer
+          format: int64
+          description: ""
+        importErrors:
+          type: array
+          items:
+            type: object
+            allOf:
+              - $ref: '#/components/schemas/importError'
+          description: ""
+    
+    exportEventStatus:
+      description: ""
+      type: object
+      required:
+        - importerId
+        - eventType
+        - recordCount
+      properties:
+        importerId:
+          type: string
+          description: ""
+        eventType:
+          type: string
+          allOf:
+          - $ref: '#/components/schemas/eventType'
+          description: ""
+        recordCount:
+          type: integer
+          format: int64
+          description: ""
+    
+    importEventStatus:
+      description: ""
+      type: object
+      required:
+        - importerId
+        - eventType
+        - status
+        - recordCount
+      properties:
+        importerId:
+          type: string
+          description: ""
+        eventType:
+          type: string
+          allOf:
+          - $ref: '#/components/schemas/eventType'
+          description: ""
+        status:
+          type: string
+          allOf:
+          - $ref: '#/components/schemas/status'
+          description: ""
+        errorMessage:
+          type: string
+          description: ""
+        recordCount:
+          type: integer
+          format: int64
+          description: ""
+        importReport:
+          type: object
+          allOf:
+            - $ref: '#/components/schemas/importReport'
+          description: ""
+    
+    exportConfig:
+      description: ""
+      type: object
+      required:
+        - uri
+        - layout
+        - async
+        - errorStrategy
+      properties:
+        uri:
+          type: string
+          description: ""
+        layout:
+          type: object
+          allOf:
+            - $ref: '#/components/schemas/layoutdto'
+          description: ""
+        async:
+          type: boolean
+          description: ""
+        errorStrategy:
+          type: string
+          description: ""
+    
+    importConfig:
+      description: ""
+      type: object
+      required:
+        - uri
+        - layout
+        - async
+        - batchSize
+        - errorStrategy
+      properties:
+        uri:
+          type: string
+          description: ""
+        layout:
+          type: object
+          allOf:
+            - $ref: '#/components/schemas/layoutdto'
+          description: ""
+        async:
+          type: boolean
+          description: ""
+        batchSize:
+          type: integer
+          format: int64
+          description: ""
+        errorStrategy:
+          type: string
+          allOf:
+          - $ref: '#/components/schemas/errorStrategy'
+          description: ""
     
     dependency:
       description: "Represents a service dependency"

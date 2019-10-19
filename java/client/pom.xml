@@ -32,6 +32,12 @@
         </dependency>
         
         <dependency>
+            <groupId>br.com.senior</groupId>
+            <artifactId>customspringodata</artifactId>
+            <version>${customspringodata-version}</version>
+        </dependency>
+        
+        <dependency>
             <groupId>br.com.senior.messaging</groupId>
             <artifactId>messaging-api</artifactId>
             <version>${messaging-api-version}</version>

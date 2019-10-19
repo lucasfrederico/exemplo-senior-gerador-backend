@@ -31,7 +31,7 @@
 		<service-model-version>11.2.6</service-model-version>
 		<hibernate-version>5.4.0.Final</hibernate-version>
 		<customspringodata-version>1.0.3</customspringodata-version>
-
+		<springbatchintegration-version>1.0.0</springbatchintegration-version>
 		<customization-service-client-version>3.5.0</customization-service-client-version>
 		<translation-hub-api-version>2.3.1</translation-hub-api-version>
 		<httpclient-version>4.5.2</httpclient-version>

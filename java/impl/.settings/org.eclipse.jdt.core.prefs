@@ -1,3 +1,11 @@
+eclipse.preferences.version=1
+org.eclipse.jdt.core.compiler.codegen.targetPlatform=11
+org.eclipse.jdt.core.compiler.compliance=11
+org.eclipse.jdt.core.compiler.problem.enablePreviewFeatures=disabled
+org.eclipse.jdt.core.compiler.problem.forbiddenReference=warning
+org.eclipse.jdt.core.compiler.problem.reportPreviewFeatures=ignore
+org.eclipse.jdt.core.compiler.release=disabled
+org.eclipse.jdt.core.compiler.source=11
 org.eclipse.jdt.core.formatter.align_type_members_on_columns=false
 org.eclipse.jdt.core.formatter.alignment_for_arguments_in_allocation_expression=2
 org.eclipse.jdt.core.formatter.alignment_for_arguments_in_annotation=0
@@ -281,4 +289,4 @@ org.eclipse.jdt.core.formatter.use_on_off_tags=false
 org.eclipse.jdt.core.formatter.use_tabs_only_for_leading_indentations=false
 org.eclipse.jdt.core.formatter.wrap_before_binary_operator=false
 org.eclipse.jdt.core.formatter.wrap_before_or_operator_multicatch=true
-org.eclipse.jdt.core.formatter.wrap_outer_expressions_when_nested=true			
+org.eclipse.jdt.core.formatter.wrap_outer_expressions_when_nested=true\t\t\t
