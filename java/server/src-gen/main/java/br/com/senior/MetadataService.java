@@ -10,6 +10,8 @@ import java.util.Properties;
 import java.util.Set;
 import java.util.regex.Pattern;
 
+import br.com.senior.messaging.ErrorCategory;
+import br.com.senior.messaging.model.SilentServiceException;
 import org.apache.commons.io.IOUtils;
 import org.reflections.Reflections;
 import org.reflections.scanners.ResourcesScanner;
@@ -33,8 +35,8 @@ public class MetadataService {
 				InputStream stream = getClass().getClassLoader()
 						.getResourceAsStream(String.format("%s.%s", service, format))) {
 
-			if (Objects.isNull(streamWithDomain) && Objects.isNull(stream)) {
-				throw new IllegalArgumentException("No metadata available in format " + format);
+			if (Objects.isNull(streamWithDomain) && Objects.isNull(stream)) {						
+				throw new SilentServiceException(ErrorCategory.OBJECT_NOT_FOUND,"No metadata available in format " + format);						
 			}
 			String ret = IOUtils.toString(streamWithDomain != null ? streamWithDomain : stream, "UTF-8");
 			return ret.replaceAll("\\$\\{version\\}", ArtifactInfo.getVersion());

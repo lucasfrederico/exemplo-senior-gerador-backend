@@ -33,8 +33,6 @@ public class GetMetadataImpl implements GetMetadata, MessageHandler {
 		try {
 			String content = metadataService.getMetadata("examples", "hello_world", format);
 			return new GetMetadataOutput(content);
-		} catch (IllegalArgumentException e) {
-			throw new SilentServiceException(ErrorCategory.OBJECT_NOT_FOUND, "The metadataFormat does not exists", e);
 		} catch (IOException e) {
 			throw new ServiceException(ErrorCategory.INTERNAL_ERROR, "Could not read metadata due to an I/O error", e);
 		}

@@ -1,7 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7efb992f-850d-4c56-8244-35c4c1cfd0b7" name="Default Changelist" comment="" />
+    <list default="true" id="7efb992f-850d-4c56-8244-35c4c1cfd0b7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/hello-world.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/hello-world.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/hello-world.sln" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/hello-world.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/BasicErrorPayload.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/BasicErrorPayload.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/BlobReference.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/BlobReference.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/Cliente.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/Cliente.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/CreateBulkClienteInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/CreateBulkClienteInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/CreateBulkClienteOutput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/CreateBulkClienteOutput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/Dependency.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/Dependency.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/EmailNotifyUserEventPayload.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/EmailNotifyUserEventPayload.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/ExportClienteEventPayload.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/ExportClienteEventPayload.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/ExportClienteInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/ExportClienteInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/ExportClienteOutput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/ExportClienteOutput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/ExportConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/ExportConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/ExportEventStatus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/ExportEventStatus.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/Fielddto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/Fielddto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/GetDependenciesOutput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/GetDependenciesOutput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/GetMetadataImpl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/GetMetadataImpl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/GetMetadataInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/GetMetadataInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/GetMetadataOutput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/GetMetadataOutput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/HelloWorldConstants.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/HelloWorldConstants.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/HelloWorldInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/HelloWorldInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/HelloWorldOutput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/HelloWorldOutput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/Hookdto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/Hookdto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/ICreateBulkCliente.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/ICreateBulkCliente.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/ICreateCliente.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/ICreateCliente.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/ICreateMergeCliente.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/ICreateMergeCliente.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/IDeleteCliente.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/IDeleteCliente.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/IExportCliente.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/IExportCliente.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/IExportClienteEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/IExportClienteEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/IGetDependencies.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/IGetDependencies.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/IGetMetadata.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/IGetMetadata.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/IHelloWorld.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/IHelloWorld.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/IImportCliente.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/IImportCliente.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/IImportClienteEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/IImportClienteEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/IListCliente.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/IListCliente.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/INotifyUserEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/INotifyUserEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/IOdata.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/IOdata.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/IRetrieveCliente.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/IRetrieveCliente.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/IServiceStarted.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/IServiceStarted.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/IUpdateCliente.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/IUpdateCliente.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/IUpdateMergeCliente.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/IUpdateMergeCliente.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/ImportClienteEventPayload.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/ImportClienteEventPayload.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/ImportClienteInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/ImportClienteInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/ImportClienteOutput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/ImportClienteOutput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/ImportConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/ImportConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/ImportError.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/ImportError.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/ImportEventStatus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/ImportEventStatus.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/ImportReport.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/ImportReport.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/Layoutdto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/Layoutdto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/NotifyUserEventPayload.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/NotifyUserEventPayload.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/PushNotifyUserEventPayload.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/PushNotifyUserEventPayload.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/ServiceStartedPayload.cs" beforeDir="false" afterPath="$PROJECT_DIR$/csharp/src/SeniorSistemas.Examples.Helloworld/ServiceStartedPayload.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/BasicErrorPayload.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/BasicErrorPayload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/BlobReference.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/BlobReference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/CreateBulkClienteInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/CreateBulkClienteInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/CreateBulkClienteOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/CreateBulkClienteOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/Dependency.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/Dependency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/EmailNotifyUserEventPayload.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/EmailNotifyUserEventPayload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/ExportClienteEventPayload.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/ExportClienteEventPayload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/ExportClienteInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/ExportClienteInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/ExportClienteOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/ExportClienteOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/ExportConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/ExportConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/ExportEventStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/ExportEventStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/Fielddto.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/Fielddto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/GetDependenciesOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/GetDependenciesOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/GetMetadataInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/GetMetadataInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/GetMetadataOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/GetMetadataOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/HelloWorldInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/HelloWorldInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/HelloWorldOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/HelloWorldOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/HelloWorldStubImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/HelloWorldStubImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/HelloWorldValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/HelloWorldValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/Hookdto.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/Hookdto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/ImportClienteEventPayload.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/ImportClienteEventPayload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/ImportClienteInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/ImportClienteInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/ImportClienteOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/ImportClienteOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/ImportConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/ImportConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/ImportError.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/ImportError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/ImportEventStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/ImportEventStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/ImportReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/ImportReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/Layoutdto.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/Layoutdto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/NotifyUserEventPayload.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/NotifyUserEventPayload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/PushNotifyUserEventPayload.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/PushNotifyUserEventPayload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/ServiceStartedPayload.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/src-gen/main/java/br/com/senior/examples/helloworld/ServiceStartedPayload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/target/classes/br/com/senior/examples/helloworld/BasicErrorPayload.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/target/classes/br/com/senior/examples/helloworld/BasicErrorPayload.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/target/classes/br/com/senior/examples/helloworld/BlobReference.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/target/classes/br/com/senior/examples/helloworld/BlobReference.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/target/classes/br/com/senior/examples/helloworld/Dependency.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/target/classes/br/com/senior/examples/helloworld/Dependency.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/target/classes/br/com/senior/examples/helloworld/EmailNotifyUserEventPayload.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/target/classes/br/com/senior/examples/helloworld/EmailNotifyUserEventPayload.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/target/classes/br/com/senior/examples/helloworld/GetDependenciesOutput.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/target/classes/br/com/senior/examples/helloworld/GetDependenciesOutput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/target/classes/br/com/senior/examples/helloworld/GetMetadataInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/target/classes/br/com/senior/examples/helloworld/GetMetadataInput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/target/classes/br/com/senior/examples/helloworld/GetMetadataOutput.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/target/classes/br/com/senior/examples/helloworld/GetMetadataOutput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/target/classes/br/com/senior/examples/helloworld/HelloWorldInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/target/classes/br/com/senior/examples/helloworld/HelloWorldInput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/target/classes/br/com/senior/examples/helloworld/HelloWorldOutput.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/target/classes/br/com/senior/examples/helloworld/HelloWorldOutput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/target/classes/br/com/senior/examples/helloworld/HelloWorldStubImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/target/classes/br/com/senior/examples/helloworld/HelloWorldStubImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/target/classes/br/com/senior/examples/helloworld/NotifyUserEventPayload.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/target/classes/br/com/senior/examples/helloworld/NotifyUserEventPayload.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/target/classes/br/com/senior/examples/helloworld/PushNotifyUserEventPayload.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/target/classes/br/com/senior/examples/helloworld/PushNotifyUserEventPayload.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/client/target/classes/br/com/senior/examples/helloworld/ServiceStartedPayload.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/client/target/classes/br/com/senior/examples/helloworld/ServiceStartedPayload.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/impl/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/java/impl/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/impl/.settings/org.eclipse.core.resources.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/java/impl/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/server/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/java/server/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/java/server/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/server/src-gen/main/java/br/com/senior/MetadataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/server/src-gen/main/java/br/com/senior/MetadataService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/server/src-gen/main/java/br/com/senior/examples/helloworld/ClienteEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/server/src-gen/main/java/br/com/senior/examples/helloworld/ClienteEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/server/src-gen/main/java/br/com/senior/examples/helloworld/GetMetadataImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/server/src-gen/main/java/br/com/senior/examples/helloworld/GetMetadataImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/server/src-gen/main/resources/entities_resources/jpa/examples/hello_world/EntitiesForJPAPersistenceXML.txt" beforeDir="false" afterPath="$PROJECT_DIR$/java/server/src-gen/main/resources/entities_resources/jpa/examples/hello_world/EntitiesForJPAPersistenceXML.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/server/target/classes/br/com/senior/MetadataService$Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/server/target/classes/br/com/senior/MetadataService$Service.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/server/target/classes/br/com/senior/MetadataService.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/server/target/classes/br/com/senior/MetadataService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/server/target/classes/br/com/senior/examples/helloworld/GetMetadataImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/java/server/target/classes/br/com/senior/examples/helloworld/GetMetadataImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +130,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -24,7 +142,8 @@
   </component>
   <component name="ProjectId" id="1RkiNbGdOrvJAlrrtJeg0Ao4mJV" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/java/pom.xml" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -76,5 +195,16 @@
       <updated>1570217455361</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

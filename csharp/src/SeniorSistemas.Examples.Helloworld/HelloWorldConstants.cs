@@ -7,7 +7,7 @@ namespace SeniorSistemas.Examples.Helloworld
     /// TBD
     ///</summary>
     ///<remarks>Constants for examples/hello_world</remarks>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("sdl", "25.1.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("sdl", "25.1.4")]
     public class HelloWorldConstants
     {
         ///<summary>The service domain</summary>

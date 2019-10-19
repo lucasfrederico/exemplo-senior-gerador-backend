@@ -1,2 +1,2 @@
-<!-- GENERATED ENTITIES: 2019-10-19 11:38:34:717 -->
+<!-- GENERATED ENTITIES: 2019-10-19 13:44:50:497 -->
 <class>br.com.senior.examples.helloworld.ClienteEntity</class>

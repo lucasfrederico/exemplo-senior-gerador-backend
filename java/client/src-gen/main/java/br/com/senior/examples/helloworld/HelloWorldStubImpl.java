@@ -479,14 +479,74 @@ public class HelloWorldStubImpl  implements HelloWorldStub {
 		return impl.getDependenciesRequest();
 	}
 
+	
+	private Message createMessage(ExportClienteEventPayload input, String requestName) {
+		if (messageSupplier != null && messageSupplier.get() != null) {
+			return messageSupplier.get().followUp( //
+				HelloWorldConstants.DOMAIN, //
+				HelloWorldConstants.SERVICE, //
+				requestName, //
+				DtoJsonConverter.toJSON(input));
+			}
+		return  new Message(userId.getTenant(), // 
+			HelloWorldConstants.DOMAIN, // 
+			HelloWorldConstants.SERVICE, //
+			requestName, // 
+			DtoJsonConverter.toJSON(input));
+	}
+	
+	private Message createMessage(ServiceStartedPayload input, String requestName) {
+		if (messageSupplier != null && messageSupplier.get() != null) {
+			return messageSupplier.get().followUp( //
+				HelloWorldConstants.DOMAIN, //
+				HelloWorldConstants.SERVICE, //
+				requestName, //
+				DtoJsonConverter.toJSON(input));
+			}
+		return  new Message(userId.getTenant(), // 
+			HelloWorldConstants.DOMAIN, // 
+			HelloWorldConstants.SERVICE, //
+			requestName, // 
+			DtoJsonConverter.toJSON(input));
+	}
+	
+	private Message createMessage(ImportClienteEventPayload input, String requestName) {
+		if (messageSupplier != null && messageSupplier.get() != null) {
+			return messageSupplier.get().followUp( //
+				HelloWorldConstants.DOMAIN, //
+				HelloWorldConstants.SERVICE, //
+				requestName, //
+				DtoJsonConverter.toJSON(input));
+			}
+		return  new Message(userId.getTenant(), // 
+			HelloWorldConstants.DOMAIN, // 
+			HelloWorldConstants.SERVICE, //
+			requestName, // 
+			DtoJsonConverter.toJSON(input));
+	}
+	
+	private Message createMessage(NotifyUserEventPayload input, String requestName) {
+		if (messageSupplier != null && messageSupplier.get() != null) {
+			return messageSupplier.get().followUp( //
+				HelloWorldConstants.DOMAIN, //
+				HelloWorldConstants.SERVICE, //
+				requestName, //
+				DtoJsonConverter.toJSON(input));
+			}
+		return  new Message(userId.getTenant(), // 
+			HelloWorldConstants.DOMAIN, // 
+			HelloWorldConstants.SERVICE, //
+			requestName, // 
+			DtoJsonConverter.toJSON(input));
+	}
+	
 
 	/**
 	* Chamada assíncrona para o método publishServiceStarted
 	* Warning: this operation is PRIVATE and may have its behavior changed at any time without notice
 	*/
 	public void publishServiceStarted( ServiceStartedPayload input ) {
-	
-		Message message = new Message(userId.getTenant(), HelloWorldConstants.DOMAIN, HelloWorldConstants.SERVICE, HelloWorldConstants.Events.SERVICE_STARTED, DtoJsonConverter.toJSON(input));
+		Message message = createMessage(input, HelloWorldConstants.Events.SERVICE_STARTED);
 		try {
 			addMessageHeaders(message);
 			messengerSupplier.get().publish(message);
@@ -500,8 +560,7 @@ public class HelloWorldStubImpl  implements HelloWorldStub {
 	* Warning: this operation is PRIVATE and may have its behavior changed at any time without notice
 	*/
 	public void publishNotifyUserEvent( NotifyUserEventPayload input ) {
-	
-		Message message = new Message(userId.getTenant(), HelloWorldConstants.DOMAIN, HelloWorldConstants.SERVICE, HelloWorldConstants.Events.NOTIFY_USER_EVENT, DtoJsonConverter.toJSON(input));
+		Message message = createMessage(input, HelloWorldConstants.Events.NOTIFY_USER_EVENT);
 		try {
 			addMessageHeaders(message);
 			messengerSupplier.get().publish(message);
@@ -515,8 +574,7 @@ public class HelloWorldStubImpl  implements HelloWorldStub {
 	* This is a public operation
 	*/
 	public void publishImportClienteEvent( ImportClienteEventPayload input ) {
-	
-		Message message = new Message(userId.getTenant(), HelloWorldConstants.DOMAIN, HelloWorldConstants.SERVICE, HelloWorldConstants.Events.IMPORT_CLIENTE_EVENT, DtoJsonConverter.toJSON(input));
+		Message message = createMessage(input, HelloWorldConstants.Events.IMPORT_CLIENTE_EVENT);
 		try {
 			addMessageHeaders(message);
 			messengerSupplier.get().publish(message);
@@ -530,8 +588,7 @@ public class HelloWorldStubImpl  implements HelloWorldStub {
 	* This is a public operation
 	*/
 	public void publishExportClienteEvent( ExportClienteEventPayload input ) {
-	
-		Message message = new Message(userId.getTenant(), HelloWorldConstants.DOMAIN, HelloWorldConstants.SERVICE, HelloWorldConstants.Events.EXPORT_CLIENTE_EVENT, DtoJsonConverter.toJSON(input));
+		Message message = createMessage(input, HelloWorldConstants.Events.EXPORT_CLIENTE_EVENT);
 		try {
 			addMessageHeaders(message);
 			messengerSupplier.get().publish(message);
@@ -540,7 +597,6 @@ public class HelloWorldStubImpl  implements HelloWorldStub {
 		}
 	}
 	
-
 	private void addMessageHeaders(Message message) {
 		message.setUsername(userId.getUsername());
 		if (userId.isTrusted()) {

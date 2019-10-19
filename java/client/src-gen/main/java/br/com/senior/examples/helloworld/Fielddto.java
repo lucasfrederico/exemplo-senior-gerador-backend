@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+import br.com.senior.examples.helloworld.FieldType;
 import br.com.senior.examples.helloworld.HelloWorldValidator;
 
 public class Fielddto {
@@ -50,7 +51,7 @@ public class Fielddto {
     	validate(headers, required, new ArrayList<>());
     }
     
-    void validate(Map<String, Object> headers, boolean required, List<Object> validated) {
+    public void validate(Map<String, Object> headers, boolean required, List<Object> validated) {
     	HelloWorldValidator.validate(this, headers, required, validated);
     }
     @Override
@@ -132,7 +133,7 @@ public class Fielddto {
     	return sb.toString();
     }
     
-    void toString(StringBuilder sb, List<Object> appended) {
+    public void toString(StringBuilder sb, List<Object> appended) {
     	sb.append(getClass().getSimpleName()).append(" [");
     	if (appended.contains(this)) {
     		sb.append("<Previously appended object>").append(']');

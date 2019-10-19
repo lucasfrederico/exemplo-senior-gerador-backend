@@ -35,7 +35,7 @@ public class CreateBulkClienteInput {
     	validate(headers, required, new ArrayList<>());
     }
     
-    void validate(Map<String, Object> headers, boolean required, List<Object> validated) {
+    public void validate(Map<String, Object> headers, boolean required, List<Object> validated) {
     	HelloWorldValidator.validate(this, headers, required, validated);
     }
     @Override
@@ -72,7 +72,7 @@ public class CreateBulkClienteInput {
     	return sb.toString();
     }
     
-    void toString(StringBuilder sb, List<Object> appended) {
+    public void toString(StringBuilder sb, List<Object> appended) {
     	sb.append(getClass().getSimpleName()).append(" [");
     	if (appended.contains(this)) {
     		sb.append("<Previously appended object>").append(']');

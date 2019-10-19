@@ -149,7 +149,7 @@ public class ClienteEntity extends CustomEntity {
 		return sb.toString();
 	}
 	
-	void toString(StringBuilder sb, List<Object> appended) {
+	public void toString(StringBuilder sb, List<Object> appended) {
 		sb.append(getClass().getSimpleName()).append(" [");
 		if (appended.contains(this)) {
 			sb.append("<Previously appended object>").append(']');

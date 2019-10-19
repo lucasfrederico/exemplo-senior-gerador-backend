@@ -722,12 +722,12 @@ public class HelloWorldValidator {
     		if (toValidate.fields == null || toValidate.fields.isEmpty()) {
     			throw new IllegalArgumentException("fields is required, at least one value must be present");
     		}
-    		for (Fielddto it : toValidate.fields) {
+    		for (br.com.senior.examples.helloworld.Fielddto it : toValidate.fields) {
     			it.validate(null, required, validated);
     		}
     	}
     	if (toValidate.hooks != null) {
-    		for (Hookdto it : toValidate.hooks) {
+    		for (br.com.senior.examples.helloworld.Hookdto it : toValidate.hooks) {
     			it.validate(null, true, validated);
     		}
     	}
@@ -819,7 +819,7 @@ public class HelloWorldValidator {
     		}
     	}
     	if (toValidate.importErrors != null) {
-    		for (ImportError it : toValidate.importErrors) {
+    		for (br.com.senior.examples.helloworld.ImportError it : toValidate.importErrors) {
     			it.validate(null, true, validated);
     		}
     	}
@@ -1402,7 +1402,7 @@ public class HelloWorldValidator {
     		if (toValidate.dependencies == null || toValidate.dependencies.isEmpty()) {
     			throw new IllegalArgumentException("dependencies is required, at least one value must be present");
     		}
-    		for (Dependency it : toValidate.dependencies) {
+    		for (br.com.senior.examples.helloworld.Dependency it : toValidate.dependencies) {
     			it.validate(null, required, validated);
     		}
     	}

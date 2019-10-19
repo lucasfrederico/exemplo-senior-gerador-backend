@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+import br.com.senior.examples.helloworld.UserNotificationKind;
+import br.com.senior.examples.helloworld.UserNotificationPriority;
+import br.com.senior.examples.helloworld.EventEmailFormat;
 import br.com.senior.examples.helloworld.HelloWorldValidator;
 
 /**
@@ -71,7 +74,7 @@ public class EmailNotifyUserEventPayload extends NotifyUserEventPayload {
     	validate(headers, required, new ArrayList<>());
     }
     
-    void validate(Map<String, Object> headers, boolean required, List<Object> validated) {
+    public void validate(Map<String, Object> headers, boolean required, List<Object> validated) {
     	HelloWorldValidator.validate(this, headers, required, validated);
     }
     @Override
@@ -129,7 +132,7 @@ public class EmailNotifyUserEventPayload extends NotifyUserEventPayload {
     	return sb.toString();
     }
     
-    void toString(StringBuilder sb, List<Object> appended) {
+    public void toString(StringBuilder sb, List<Object> appended) {
     	sb.append(getClass().getSimpleName()).append(" [");
     	if (appended.contains(this)) {
     		sb.append("<Previously appended object>").append(']');

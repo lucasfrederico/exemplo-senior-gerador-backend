@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>10.0.0</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{2BBF79B5-CD96-4700-816A-C39EA16C511C}</ProjectGuid>
+    <ProjectGuid>{93A288B5-9AA6-43D7-B444-0BFD503112F0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>hello-world</RootNamespace>
     <AssemblyName>hello-world</AssemblyName>

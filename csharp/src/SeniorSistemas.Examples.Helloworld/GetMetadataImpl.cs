@@ -7,7 +7,7 @@ namespace SeniorSistemas.Examples.Helloworld
     using System.IO;
     using System.Reflection;
 
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("sdl", "25.1.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("sdl", "25.1.4")]
     public class GetMetadataImpl : IGetMetadata
     {
     	public GetMetadataOutput GetMetadata(GetMetadataInput request)

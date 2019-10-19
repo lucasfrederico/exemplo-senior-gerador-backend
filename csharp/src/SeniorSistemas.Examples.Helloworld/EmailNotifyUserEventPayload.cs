@@ -10,7 +10,7 @@ namespace SeniorSistemas.Examples.Helloworld
     ///<summary>
     /// Represents an email notification payload
     ///</summary>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("sdl", "25.1.1")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("sdl", "25.1.4")]
     public class EmailNotifyUserEventPayload : NotifyUserEventPayload
     {
         
